@@ -14,10 +14,15 @@ $('#deposit1').click(function(){
 
 $('#withdraw1').click(function(){
   var number1 = $('#amount1').val();
+
+  // if(number1 => total){
   total = total - parseInt(number1)
   $('#balance1').html(total)
 })
 
+// else if (withdraw1 < (total + total2)){
+
+// }
 
 $('#deposit2').click(function(){
   var number2 = $('#amount2').val();
